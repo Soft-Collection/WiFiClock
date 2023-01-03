@@ -6,7 +6,8 @@
 #define STAPSK  "YourPassword"
 #endif
 
-#define MYTZ YourTimeZone
+//Put your time zone here: https://github.com/esp8266/Arduino/blob/master/cores/esp8266/TZ.h
+#define MYTZ TZ_America_New_York
 
 //pins definitions for TM1637 and can be changed to other ports
 #define  CLK_PIN  5 
