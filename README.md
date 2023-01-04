@@ -10,7 +10,7 @@ Simple clock that updates via WiFi
 |1 | [TM-1637](https://www.aliexpress.com/item/1005003947103358.html?spm=a2g0o.productlist.main.5.2c1f54efabdjQw&algo_pvid=3a7beeb0-bfc2-45bb-9f4b-5e0a09c89a8d&aem_p4p_detail=202301030955189596255770804560001502397&algo_exp_id=3a7beeb0-bfc2-45bb-9f4b-5e0a09c89a8d-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000027537145198%22%7D&pdp_npi=2%40dis%21ILS%212.51%212.51%21%21%21%21%21%402100b69816727685187147254d0787%2112000027537145198%21sea&curPageLogUid=76aEuJp2I9M5&ad_pvid=202301030955189596255770804560001502397_3&ad_pvid=202301030955189596255770804560001502397_3) | Digital LED Display Module |
 
 ## Notes
-[TM1637 ](https://github.com/avishorp/TM1637) must be installed.
+[TM1637 ](https://github.com/Seeed-Studio/Grove_4Digital_Display) must be installed.
 
 In the file Config.h you must set:
 ```
