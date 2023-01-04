@@ -24,5 +24,7 @@ In the file Config.h you must set:
 ```
 [See all time zones here](https://github.com/esp8266/Arduino/blob/master/cores/esp8266/TZ.h)
 
+Set desired **upload_port** in the file **platformio.ini** file.
+
 ## Connection Diagram
 ![Connection Diagram](Images/Connection%20Diagram.png)
