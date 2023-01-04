@@ -9,6 +9,7 @@ ClockLEDDisplay::~ClockLEDDisplay()
    if (mTM1637 != NULL)
    {
       delete mTM1637;
+      mTM1637 = NULL;
    }
 }
 void ClockLEDDisplay::Init()
