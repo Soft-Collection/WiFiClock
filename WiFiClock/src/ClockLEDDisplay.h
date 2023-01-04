@@ -8,13 +8,13 @@
 class ClockLEDDisplay
 {
 public:
-	ClockLEDDisplay();
-	virtual ~ClockLEDDisplay();
-	void Init();
-	void DisplayTime(int8_t hour, int8_t minute, bool showPoints);
-	void DisplayPointsOnly(bool showPoints);
+   ClockLEDDisplay();
+   virtual ~ClockLEDDisplay();
+   void Init();
+   void DisplayTime(int8_t hour, int8_t minute, bool showPoints);
+   void DisplayPointsOnly(bool showPoints);
 private:
-	TM1637* mTM1637;
+   TM1637 *mTM1637;
 };
 
 #endif //ClockLEDDisplay_h
